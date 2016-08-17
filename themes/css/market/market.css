@@ -1,0 +1,77 @@
+/*banner*/
+.banner {width:100%; position:relative; overflow:hidden;}
+.banner img {width:100%;}
+.banner .banNav {width:100%; height:8px; position:absolute; z-index:1; bottom:10px; text-align:center;}
+.banner .banNav ul {display:inline-block; height:100%;}
+.banner .banNav ul li {display:inline-block; width:6px; height:6px; line-height:100px; border-radius:50%; border:1px solid #fff; margin:0 6px; vertical-align:top; overflow:hidden;}
+.banner .banNav ul .on {background:#fff;}
+.banner .banImg {width:100%; height:100%; position:absolute; left:0; top:0; z-index:0; overflow:hidden;}
+
+
+/*灯具照明&地面材料*/
+.marketMenu {height:37px; margin:0 10px; position:relative;}
+.marketMenu a {display:block; width:25%; height:36px; line-height:36px; float:left; text-align:center; font-size:1.4rem;}
+.marketMenu a.act {color:#ff4560;}
+.marketMenu .mark {display:block; width:25%; height:1px; background:#ff4560; position:absolute; left:0; bottom:0;}
+
+.boutiquePicBox {background:#ff4560;}
+.boutiquePic {margin:0 2px; overflow:hidden;}
+.boutiquePic .boutiqueList ul {width:100%; float:left;}
+.boutiquePic .boutiqueList ul li {width:50%; float:left;}
+.boutiquePic .boutiqueList ul li a {display:block; background:#fff; padding-bottom:10px; margin:0 3px;}
+.boutiquePic .boutiqueList .boutiqueImg img {width:100%; height:100%;}
+.boutiquePic .boutiqueList .boutiqueTxt {height:32px; line-height:16px; padding:0 6px; font-size:1.2rem; color:#333; overflow:hidden; margin-top:5px;}
+.boutiquePic .boutiqueList .boutiqueDesc {height:20px; line-height:20px; margin-top:5px; padding:0 6px;}
+.boutiquePic .boutiqueList .boutiqueDesc .boutiquePrice {font-size:1.4rem; color:#ff4560; float:left;}
+.boutiquePic .boutiqueList .boutiqueDesc .boutiqueBtn {height:100%; padding:0 7px; float:right; background:#ff9e3e; font-size:1.2rem; color:#fff; border-radius:2px;}
+.boutiquePic .boutiqueNav {height:30px; line-height:30px; overflow:hidden; text-align:center;}
+.boutiquePic .boutiqueNav ul {display:inline-block; height:100%;}	
+.boutiquePic .boutiqueNav ul li {display:inline-block; width:6px; height:6px; line-height:100px; border-radius:50%; border:1px solid #fff; margin:0 6px; vertical-align:middle; overflow:hidden;}
+.boutiquePic .boutiqueNav .on {background:#fff;}
+
+.marketAdv img {width:100%;}
+
+.lampsHotTil {height:15px; line-height:15px; padding:8px 5px; border-bottom:1px solid #ccc; font-size:1.4rem;}
+.lampsHotTil .lampsHotTilTxt {height:100%; border-left:3px solid #ff4560; padding-left:7px;}
+.lampsHotBox .lampsHot {border-top:1px solid #e8e8e8; padding:7px 10px;}
+.lampsHotBox .lampsHot:first-child {border-top:none;}
+.lampsHotBox .lampsHot .lampsHotImg {width:90px; height:90px; float:left; margin-right:10px; overflow:hidden;}
+.lampsHotBox .lampsHot .lampsHotImg img {width:100%; height:100%;}
+
+.lampsHotBox .lampsHot .lampsHotInfo {overflow:hidden;}
+.lampsHotBox .lampsHot .lampsHotInfo .lampsHotTxt {max-height:32px; line-height:16px; font-size:1.2rem; color:#333; overflow:hidden;}
+.lampsHotBox .lampsHot .lampsHotInfo .lampsHotIco {margin-top:8px;}
+.lampsHotBox .lampsHot .lampsHotInfo .lampsHotIco .icon {display:block; height:14px; line-height:14px; padding:0 3px; border:1px solid #ff4560; border-radius:2px; font-size:1rem; color:#ff4560; float:left; margin-left:10px;}
+.lampsHotBox .lampsHot .lampsHotInfo .lampsHotIco .icon:first-child {margin-left:0;}
+.lampsHotBox .lampsHot .lampsHotInfo .lampsHotRow {margin-top:12px; height:20px; line-height:20px;}
+.lampsHotBox .lampsHot .lampsHotInfo .lampsHotRow .lampsHotPrice {float:left; font-size:1.6rem; color:#ff4560;}
+.lampsHotBox .lampsHot .lampsHotInfo .lampsHotRow .lampsHotBtn {height:100%; padding:0 5px; float:right; font-size:1.2rem; color:#fff; border-radius:2px; background:#ff4560;}
+
+.exciting {background:#efeff4;}
+.exciting .excitingItem {margin:0 2px;}
+.exciting .excitingItem li {width:50%; float:left; margin-bottom:5px;}
+.exciting .excitingItem li a {display:block; background:#fff; margin:0 3px; padding-bottom:5px;}
+.exciting .excitingItem .excitingImg img {width:100%; height:100%;}
+.exciting .excitingItem .excitingTxt {height:32px; line-height:16px; padding:0 6px; font-size:1.2rem; color:#333; overflow:hidden; margin-top:5px;}
+.exciting .excitingItem .excitingPrict {height:20px; line-height:20px; margin-top:2px; padding:0 6px; font-size:1.4rem; color:#ff4560;}
+
+
+
+/*厨卫&节能环保&门窗五金*/
+#kitbg {background:#efeff4;}
+.kitNav {height:38px; line-height:38px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:0 10px; background:#fff;}
+.kitNav li {width:25%; height:100%; float:left; position:relative; font-size:1.4rem; text-align:center;}
+.kitNav li.act {color:#28c83c;}
+.kitNav li.act i {display:block; width:12px; height:6px; background:url(../../images/market/kitbg.png) no-repeat; background-size:100%; position:absolute; bottom:-1px; left:50%; margin-left:-6px;}
+.kitMenuBox {background:#f5f5f5; padding:6px 5px; border-bottom:1px solid #ccc;}
+.kitMenuBox .kitMenu {max-height:76px; overflow:hidden; display:none;}
+.kitMenuBox .kitMenu:first-child {display:block;}
+.kitMenuBox .kitMenu a {height:24px; line-height:24px; padding:0 15px; float:left; border:1px solid #ccc; border-radius:2px; background:#fff; font-size:1.2rem; white-space:nowrap; margin:6px 10px;}
+.kitMenuBox .kitMenu a.act {color:#28c83c; border-color:#28c83c;}
+
+.kitItem {margin:0 2px; padding-bottom:5px;}
+.kitItem li {width:50%; float:left; margin-top:5px;}
+.kitItem li a {display:block; background:#fff; margin:0 3px; padding-bottom:5px;}
+.kitItem .kitItemImg img {width:100%; height:100%;}
+.kitItem .kitItemTxt {height:32px; line-height:16px; padding:0 6px; font-size:1.2rem; color:#333; overflow:hidden; margin-top:5px;}
+.kitItem .kitItemPrict {height:20px; line-height:20px; margin-top:2px; padding:0 6px; font-size:1.4rem; color:#ff4560;}

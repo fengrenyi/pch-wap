@@ -1,0 +1,23 @@
+
+		.guanlian{
+			margin-top:40px;
+		}
+		.setPswBox.clearfix{background:none;}
+		.setPswBox.clearfix .setPswIpt{
+			margin:10px auto;
+		}
+		.setPswBox.clearfix .setPswIpt .findBox{
+			border-radius:5px;
+		}
+		.setPswIpt .foverpsd{
+			display:inline-block;
+			position:absolute;
+			right:3%;
+			margin:10px 5px;
+			font-size:15px;
+		}
+		.findBtnBox p{
+			height:30px;
+			line-height:30px;
+		}
+		

@@ -1,0 +1,134 @@
+
+/* -- 热点资讯 -- */
+#loading{height:40px; width:80px; background-color:rgba(255,255,255,0.9);  position: fixed; top:50%; left:50%; z-index:999; margin-left:-40px; margin-top:-20px;  border-radius: 4px;}
+body #wrapper {top:88px; }
+.marketMenu {height:44px;position:relative; z-index: 40;}
+.marketMenu a {display:block; width:25%; height:44px; line-height:44px; float:left; text-align:center; font-size:1.4rem; color: #333;  background: #f5f5f5;}
+.marketMenu a.act {color:#28c83c;}
+.marketMenu .mark {display:block; width:25%; height:1px; background:#28c83c; position:absolute; left:0; bottom:0;}
+/* 顶部样式 */
+.topTil{ background:#28c83c; border-top:1px solid ##28c83c; border-bottom:1px solid #28c83c;}
+.topTil .topBack {display:block; width:11px; height:20px; float:left; background:url(../../images/common/backfff.png) no-repeat; background-size:100%; margin-top:11px; margin-left:15px;}
+.topTil .topNavBtn {display:block; width:25px; height:100%; float:right; background:url(../../images/common/navLinkfff.png) no-repeat left center; background-size:100%; margin-right:10px; position:relative;}
+.topTil .topNavBtnAct {background:url(../../images/common/icon-top-x.png) no-repeat 4px center; background-size:70%;}
+.topTil h2 {color: #fff; font-size: 1.6rem;}
+.a-link .icon-wen{display:block; width:25px; height:100%; float:right; background:url(../../images/common/icon-scerhfff.png) no-repeat left center; background-size:16px 18px; margin-right:5px; position:relative;}
+/* 列表 */
+.div-list{padding: 5px 10px 20px 10px; clear: both; overflow: hidden; border-bottom: solid 1px #e8e8e8; }
+.div-list .icon-hot{padding-right: 5px;}
+.div-list .icon-hot img{ vertical-align: middle; float: left; margin-top: 6px;}	
+.div-list .a-title{font-size: 1.4rem; color: #333; line-height: 24px; padding: 10px 0px; display: block;}
+.div-list .div-img{clear: both;}
+.div-list .div-img a{width:33.3333%; display: block; float: left; }
+.div-list .div-img a img{width: 95%; display: block; }
+.div-list .div-img a:nth-child(1) img{float: left;}
+.div-list .div-img a:nth-child(2) img{float: left; margin-left: 2.5%;}
+.div-list .div-img a:nth-child(3) img{float: right;}
+.div-list .div-text-img{font-size: 1.4rem; color: #333; padding: 15px 0px; clear: both; }
+.div-list .div-text-img a{display: inline-block; float: left;}
+.div-list .div-text-img a:nth-child(1){width: 22.8%}
+.div-list .div-text-img a:nth-child(1) img{width: 100%; display: block;}
+.div-list .div-text-img a:nth-child(2){width: 74.2%;color: #333; padding-left: 8px;}
+.div-list .div-text-img a:nth-child(2) p:nth-child(2){color: #999; font-size: 1.2rem; padding-top: 5px; max-height: 33px; overflow: hidden;}
+.div-ad{color: #333; font-size: 1.4rem; padding: 15px 0px 0px 0px; clear: both;}
+.div-ad a{color: #333;}
+.div-ad a img{width: 100%; display: block;}
+.div-ad a:nth-child(1){padding: 5px 0px; display: block;}
+
+/* 名企动态,建材前沿,市场分析  */
+.div-news{padding: 5px 10px 20px 10px; clear: both; overflow: hidden; border-bottom: solid 1px #e8e8e8; }
+.div-news .icon-hot{padding-right: 5px;}
+.div-news .icon-hot img{ vertical-align: middle; float: left; margin-top: 6px;}	
+.div-news .a-title{font-size: 1.4rem; color: #333; line-height: 24px; padding: 10px 0px; display: block;}
+.div-news .div-img{clear: both;}
+.div-news .div-img a{width:33.3333%; display: block; float: left; }
+.div-news .div-img a img{width: 95%; display: block; }
+.div-news .div-img a:nth-child(1) img{float: left;}
+.div-news .div-img a:nth-child(2) img{float: left; margin-left: 2.5%;}
+.div-news .div-img a:nth-child(3) img{float: right;}
+.div-list-news{p clear: both; overflow: hidden; border-bottom: solid 1px #e8e8e8;}
+.div-list-news .div-text-img{font-size: 1.4rem; color: #333; padding: 15px 10px; clear: both; overflow: hidden;}
+.div-list-news .div-text-img a{display: inline-block; float: left;}
+.div-list-news .div-text-img a:nth-child(1){width: 24%}
+.div-list-news .div-text-img a:nth-child(1) img{width: 100%; display: block;}
+.div-list-news .div-text-img a:nth-child(2){width: 72%;color: #333; padding-left: 8px;}
+.div-list-news .div-text-img a:nth-child(2) p:nth-child(2){color: #999; font-size: 1.2rem; padding-top: 5px; max-height: 33px; overflow: hidden;}
+
+/* 详情  */
+.div-details{margin: 0px 10px; padding-bottom: 20px;}
+.div-details .div-t{overflow: hidden;}
+.div-details .div-t a{font-size: 1.5rem; color: #333; line-height: 22px;}
+.div-details .div-t .a-title{padding: 15px 0px 5px 0px; display: block;}
+.div-details .div-t p{color: #999999; font-size: 1.3rem;}
+.div-details .div-t p span{padding-right: 20px;}
+.div-details .div-content{font-size: 1.4rem; padding: 10px 0px; line-height: 24px;}
+.div-details .div-content p{margin-top: 10px; padding-bottom: 10px;}
+.div-details .div-content img{display: block; width: 100%;}
+.div-details .a-link{width: 100%;padding: 12px 0px; background:#28c83c ; clear: both; display: block; font-size: 1.4rem; border-radius: 4px; line-height: 22px; color: #fff; text-align: center;}
+.div-tj{overflow: hidden; padding-bottom: 30px;}
+.div-tj h2{padding: 20px 0px 10px 0px; font-size: 1.4rem; border-bottom: solid 1px #e6e6e6; color: #333;}
+
+/* fixed-box */
+.fixed-box{position:fixed;bottom:0px;left:0px;_position: absolute; _top: expression(eval(document.documentElement.scrollTop));
+	z-index:1000; height: 50px; width: 100%;}
+.fixed-box .download{display: block; z-index: 29; width: 100%; height: 50px; background: #232323;}
+.fixed-box .download .download-box{margin: 0 auto;width: 320px;height: 50px;zoom: 1;}
+.fixed-box .download .download-box .icon-top-x{width: 13px;height: 13px;display: inline;margin: 18px 0 0 12px;float: left;}	
+.fixed-box .download .download-box .icon-logo{width: 40px;height: 40px;display: inline;float: left;margin: 5px 0 0 11px;}
+.fixed-box .download .download-box .text{width: 140px;display: inline;float: left;text-align: center;color: #fff;}
+.fixed-box .download .download-box .text .span1{font-size: 1.2rem;padding: 8px 0 2px 0;display: inline-block;}
+.fixed-box .download .download-box .text .span2{font-size: 1.2rem; display: inline-block;}
+.fixed-box .download .btn-download{width: 89px;height: 30px;float: right;margin: 10px 12px 0 0;}
+
+/* 搜索 */
+
+.topTil3 {height:44px; background: #28c83c; border-top:1px solid #28c83c; border-bottom:1px solid #28c83c;}
+.topTil3 .topBack {display:block; width:11px; height:20px; float:left; background:url(../../images/common/backfff.png) no-repeat; background-size:100%; margin-top:11px; margin-left:15px;}
+.topTil3 .topClose {display:block; width:25px; height:100%; float:left; background:url(../../images/common/navLinkfff.png) no-repeat 4px center; background-size:70%; margin-left:10px;}
+.topTil3 .topNavBtn {display:block; width:25px; height:100%; float:right; background:url(../../images/common/navLinkfff.png) no-repeat left center; background-size:100%; margin-right:10px; position:relative;}
+.topTil3 .topScreen {display:block; width:25px; height:100%; float:right; text-align:center; margin-right:10px;}
+.topTil3 .topScreen .topScreenIco {display:inline-block; width:19px; height:16px; background:url(../../images/common/icon03.png) no-repeat; background-size:100%; margin-top:6px;}
+.topTil3 .topScreen .topScreenTxt {height:16px; line-height:16px; font-size:1.1rem; color:#666;}
+.topTil3 .topNavBtnAct {background:url(../../images/common/icon-top-x.png) no-repeat 4px center; background-size:70%;}
+.topTil3 .topNavBtnAct .topNavArr {width:14px; height:8px; background:url(../../images/common/navArr.png) no-repeat; background-size:100%; position:absolute; left:5px; bottom:-1px;}
+.topTil3 .searchLink {display:block; height:28px; line-height:28px; border:1px solid #ccc; border-radius:50px; background:#fff; margin:7px 49px 0 41px;}
+.topTil3 h2 {display:block; height:28px; line-height:28px; margin:7px 49px 0 41px; color: #fff; text-align: center; font-size: 1.6rem;  text-overflow: ellipsis;white-space: nowrap; overflow: hidden;}
+.topTil3 .searchLink .searchIco {display:inline-block; width:14px; height:14px; float:left; background:url(../../images/common/topsearch.png) no-repeat; background-size:100%; margin-left:12px; margin-top:7px;}
+.topTil3 .searchLink .searchTxt {display:inline-block; width:80%; height:100%; float:left; color:#ccc; font-size:1.3rem; margin-left:6px; overflow:hidden;}
+.topTil3 .screenBtn {display:block; height:24px; line-height:24px; padding:0 8px; float:right; border:1px solid #999; border-radius:4px; margin-right:10px; margin-top:9px; font-size:1.2rem; color:#333; background:-webkit-gradient(linear, 0 0, 0 100%, from(#fcfcfc), to(#f0f0f0)); background:-moz-linear-gradient(top, #fcfcfc,#f0f0f0); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fcfcfc,endColorstr=#f0f0f0,grandientType=0);}
+.topNav {height:55px; background:#ddd; border-bottom:1px solid #ccc; position:relative; z-index:10; display:none;}
+.topNav a {width:20%; height:100%; float:left;}
+.topNav .topNavIco {width:22px; height:17px; margin:10px auto 0 auto;}
+.topNav .topNavIco_1 {background:url(../../images/common/nav1.png) no-repeat; background-size:100%;}
+.topNav .topNavIco_2 {background:url(../../images/common/nav2.png) no-repeat; background-size:100%;}
+.topNav .topNavIco_3 {background:url(../../images/common/nav3.png) no-repeat; background-size:100%;}
+.topNav .topNavIco_4 {background:url(../../images/common/nav4.png) no-repeat; background-size:100%;}
+.topNav .topNavIco_5 {background:url(../../images/common/nav5.png) no-repeat; background-size:100%;}
+.topNav .topNavTxt {height:24px; line-height:24px; font-size:1.2rem; color:#333; text-align:center;}
+
+
+#searchBg {background:#efeff4;}
+.topTil4{position: relative;background:#eee; border-bottom: solid 1px #ccc; border-top: none; line-height: 44px; padding: 2px 0px; z-index: 99;}
+.topTil .screenBtn2 {display:none;}
+.topTil .searchBox2 {height:30px; line-height:30px; margin-right:10px;}
+.topTil .searchBox2 .searchWrapper2 button{position: absolute; top: 0px; right: 0px; padding: 0px; margin: 0px; width: 35px;  background:url(../../images/common/icon-search-gay.png) center no-repeat; background-size:16px 18px; height: 100%; border: none; border-left:solid 1px #ccc;}
+.topTil .searchBox .searchSelect {width:50px; height:100%; float:left; position:relative; z-index:100;  }
+.topTil .searchBox .searchSelect .select {height:100%; color:#333; font-size:1.4rem;}
+.topTil .searchBox .searchSelect .option {width:100%; background:rgba(17,17,17,0.8); border-radius:3px; padding:0 10px; position:absolute; left:-10px; top:42px; display:none;}
+.topTil .searchBox .searchSelect .option li {height:38px; line-height:38px; border-top:1px solid #161616; font-size:1.4rem; color:#fff; text-align:center;}
+.topTil .searchBox .searchSelect .option li:first-child {border-top:none;}
+.topTil .searchBox .searchSelect .option:after {width:0; height:0; content:' '; border:4px solid transparent; border-bottom:5px solid #111; position:absolute; left:15px; top:-9px; opacity:0.8;}
+/*.topTil .searchBox .searchWrapper {height:100%; border:1px solid #ccc; border-radius:50px;}*/
+.topTil .searchBox .searchWrapper2{  margin-left: 10px; background:#fff; position:relative; z-index:99;  border-radius: 4px; border: solid 1px #ccc; top:7px; z-index: 99;}
+.topTil .searchBox .searchWrapper .searchIco {width:14px; height:14px; float:left; background:url(../../images/common/topsearch.png) no-repeat; background-size:100%; margin-left:8px; margin-top:7px;}
+.topTil .searchBox .searchWrapper .searchIptBox {height:100%; margin:0 8px 0 25px;}
+.topTil .searchBox .searchWrapper .searchIptBox .searchIpt {width:100%; height:100%; background:none; border:none; font-size:1.2rem; color:#666;}
+.topTil .searchBox .searchWrapper .hintBox {width:100%; position:absolute; left:0; top:28px; display:none;}
+.topTil .searchBox .searchWrapper .hintBox .hint {min-height:60px; margin:0 10px; border:1px solid #ccc; background:#fff;}
+.topTil .searchBox .searchWrapper .hintBox .hint li {height:20px; line-height:20px; padding:0 5px; font-size:1.2rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+
+.hotTil {height:34px; line-height:34px; padding:0 10px; margin-top:10px; font-size:1.4rem; color:#333;}
+.hotTil .replace {float:right;}
+.hotTil .replace .icon {display:inline-block; width:19px; height:16px; background:url(../../images/search/icon02.png) no-repeat; background-size:100%; vertical-align:middle; margin-top:-2px; margin-right:5px;}
+.hotList {padding:10px 5px;}
+.hotList li { height:32px; line-height:32px; float:left; text-align:center; font-size:1.2rem; border:1px solid #dddde0; border-radius:3px; background:#eeeeee; margin:4px 1.3%; overflow:hidden; padding: 0px 6px;}

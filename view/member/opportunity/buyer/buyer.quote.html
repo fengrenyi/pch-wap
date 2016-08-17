@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>买家身份</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+	<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+	<meta content="no-cache" http-equiv="pragma">
+	<meta content="0" http-equiv="expires">
+	<meta content="telephone=no, address=no" name="format-detection">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="wap-font-scale" content="no">
+
+	<link rel="stylesheet" type="text/css" href="../../../../themes/css/common/m.base.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../../../../themes/css/member/member.css" media="all" />
+</head>
+<body id="memberbg">
+	<!-- top -->
+	<div class="topTil clearfix">
+		<a href="javascript:pageBack();" class="topBack"></a>
+		<a href="javascript:;" class="topNavBtn"><div class="topNavArr"></div></a>
+		<h2>买家身份</h2>
+	</div>
+	<div class="topNav clearfix">
+		<a href="">
+			<div class="topNavIco topNavIco_1"></div>
+			<div class="topNavTxt">首页</div>
+		</a>
+		<a href="">
+			<div class="topNavIco topNavIco_2"></div>
+			<div class="topNavTxt">分类</div>
+		</a>
+		<a href="">
+			<div class="topNavIco topNavIco_3"></div>
+			<div class="topNavTxt">搜索</div>
+		</a>
+		<a href="">
+			<div class="topNavIco topNavIco_4"></div>
+			<div class="topNavTxt">微名片</div>
+		</a>
+		<a href="">
+			<div class="topNavIco topNavIco_5"></div>
+			<div class="topNavTxt">我的</div>
+		</a>
+	</div>
+	<!-- top end -->
+
+	<div class="oppTab clearfix">
+		<a href="buyer.inquiry.html">我发出的询价单<div class="line"><span></span></div></a>
+		<a href="buyer.quote.html" class="act">我收到的报价单<div class="line"><span></span></div></a>
+	</div>
+
+	<!-- 列表 -->
+	<div id="oppList">
+		<div class="oppItem">
+			<a href="" class="oppCont">
+				<div class="oppItemTil textOver">求购2万个防盗锁，希望尽快报价报样给我求购2万个防盗锁，希望尽快报价报样给我</div>
+				<ul class="oppItemPar clearfix">
+					<li class="lfLi textOver">报价联系人：张三</li>
+					<li class="rgLi textOver"><span class="red">1000个</span></li>
+					<li class="lfLi textOver">截止日期：2015-04-07</li>
+					<li class="rgLi textOver">广东省深圳市</li>
+				</ul>
+			</a>
+			<div class="oppDelete" onclick="deleteList($(this))">删除</div>
+		</div>
+	</div>
+	<!-- 列表 end -->
+
+	<div class="loadBtn"><a href="javascript:;">点击加载更多</a></div>
+
+	<script type="text/javascript" src="../../../../resources/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="../../../../themes/js/common/m.base.js"></script>
+	<script type="text/javascript" src="../../../../themes/js/member/opportunity/slideDelete.js"></script>
+	<script type="text/javascript" src="../../../../themes/js/member/opportunity/buyer.quote.js"></script>
+</body>
+</html>

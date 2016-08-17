@@ -1,0 +1,27 @@
+
+ .tabs{width:100%;margin:0 auto;}
+ .tabs ul{ text-align: center;  overflow: hidden;  background: #f5f5f5;}
+ .tabs li{width:50%;float:left;white-space:nowrap; height: 100%; color:#999; padding: 10px 0px; border-bottom: solid 1px #e8e8e8; font-size: 1.5rem;}
+ .tabs .on{background:#fff!important;color:#28c83c!important;border-top: solid 2px #28c83c;  padding: 9px 0px;}
+ .tabs .border_right{border-right:solid 1px #e8e8e8; margin-left: -1px;}
+ .main{overflow:hidden;position:relative;background:#fff}
+ .main .tab{ overflow: hidden;width: 100%; display: none;}
+ .main .tab a{position: relative; font-size: 1.3rem; display: block; width: 100%;  border-bottom: solid 1px #e8e8e8; padding: 12px 0px 12px 0px;   }
+ .main .tab a p{line-height: 20px; padding: 0px 10px;  }
+ .main .tab a .t1{color: #333; text-align:justify; text-justify:inter-ideograph; padding-bottom: 5px;}
+ .main .tab a .color{color: #666; font-size: 1.2rem;}
+
+ /* 招标 中标 详情 */
+ .wrapper .details{overflow: hidden; padding: 10px 0px; }
+ .wrapper .details li{line-height: 28px; font-size: 1.4rem; padding: 0px 10px;}
+ .wrapper .details li span{color: #333;}
+ .wrapper .details li .font-color{color:#999;}
+ .wrapper .con-text{font-size: 1.4rem; background: #fff;}
+ .wrapper .con-text h2{border-bottom: solid 1px #e8e8e8;  border-top: solid 1px #e8e8e8; padding: 10px 0px 10px 10px; font-size: 1.6rem;}
+ .wrapper .con-text .con-text-div{line-height: 25px; padding: 10px 10px; }
+
+
+
+
+
+

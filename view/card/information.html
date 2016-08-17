@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="utf-8" />
+        <title>完善微名片-基本信息</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="Keywords" content="" />
+        <meta name="Description" content="" />
+        <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+        <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+        <meta content="no-cache" http-equiv="pragma">
+        <meta content="0" http-equiv="expires">
+        <meta content="telephone=no, address=no" name="format-detection">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="stylesheet" type="text/css" href="../../themes/css/common/m.base.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../../themes/css/card/card.css" />  
+</head>
+<body>
+  <div class="wrapper">
+         <ul class="info-nav">
+          <li><a href="information.html"  class="act">基本信息</a></li>
+          <li><a href="my.tag.html" >我的标签</a></li>
+          <li><a href="change.themes.html">更换模板</a></li>
+       </ul>
+   <form action="" class="">     
+     <dl class="dl-info-box">
+         <dd><b>姓名</b><span><input type="text" placeholder="请输入姓名（编辑后不能修改）" name="" /></span></dd>
+         <dd><b>职务</b><span><input type="text" placeholder="请输入您的职务" name="" /></span></dd>
+         <dd>
+         <b>行业</b>
+          <span>         
+            <select>
+              <option>请选择行业</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            </span>
+          </dd>
+         <dd><b>电话</b><span><input type="text" placeholder="请输入联系电话" name="" /></span></dd>
+         <dd><b>QQ</b><span><input type="text" placeholder="请输入QQ号" name="" /></span></dd>
+         <dd><b>邮箱</b><span><input type="text" placeholder="请输入E-mai" name="" /></span></dd>      
+       </dl>
+     <div class="div-title">让名片信息更丰富</div>
+     <dl class="dl-info-box">
+         <dd><b>微信号</b><span><input type="text" placeholder="请输入微信号" name="" /></span></dd>      
+    </dl> 
+     <div class="div-title">机构/组织</div>
+     <dl class="dl-info-box">
+         <dd><b>名称</b><span><input type="text" placeholder="请输入公司名称" name="" /></span></dd>
+         <dd><b>电话</b><span><input type="text" placeholder="请输入座机/手机号码" name="" /></span></dd>
+         <dd><b>网址</b><span><input type="text" placeholder="请输入官网网址" name="" /></span></dd>  
+       </dl> 
+     <div class="div-title">详细地址</div> 
+     <dl class="dl-info-box">
+         <dd>
+            <select id="s_province" name="s_province"> </select><i class="line"></i>
+            <select id="s_city" name="s_city" ></select><i class="line"></i>
+            <select id="s_county" name="s_county"></select>
+          </dd>     
+         <dd><span><input type="text" placeholder="请输入街道地址" name="" /></span></dd>      
+    </dl> 
+     <div class="div-title">在地图上定位</div>
+   <!-- 地图  -->
+   <div class="div-address">
+      <input id="address" type="hidden" value="深圳市 福田区 天安数码城 天吉大厦 D座4楼">
+      <div id="container"></div>   
+   </div>
+    <!-- 地图  end-->                               
+   </form>
+  </div>
+  <!-- 底部按钮  -->
+  <div class="fixed-div">
+     <div class="fixed-bottom">
+        <div class="fixed-link">
+           <a href="">返回</a>&nbsp;&nbsp;
+           <a href="">保存</a>
+         </div>
+     </div>
+  </div>  
+ <!-- 底部按钮  -->  
+</body>
+    <script type="text/javascript" src="../../resources/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../../resources/js/ddic.min.js"></script>
+    <script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp"></script><!-- 腾讯地图 javascript_v2 api -->    
+    <script type="text/javascript" src="../../themes/js/card/information.js"></script>   
+</html>             

@@ -1,0 +1,81 @@
+/*求购单列表页*/
+body #wrapper {top:87px;}
+.purSort {height:40px; line-height:40px; border-bottom:1px solid #ccc; background:#f5f5f5; position:relative; z-index:10;}
+.purSort .purSortList {height:100%; float:left; text-align:center; color:#666; font-size:1.2rem;}
+.purSort .purSort1 {width:45%; border-right:1px solid #ccc; margin-left:-1px;}
+.purSort .purSort2 {width:35%;}
+.purSort .purSort3 {width:20%; border-left:1px solid #ccc; margin-right:-1px;}
+.purSort .purSort3 .purSort3Ico {display:inline-block; width:12px; height:11px; background:url(../../images/purchase/icon03.png) no-repeat; background-size:100%; margin-left:3px;}
+
+.purSort .purSortList .purSortSelect {width:100%; height:100%;}
+.purSort .purSortList .purSortSelect dt {width:100%; height:100%; position:relative; z-index:99;}
+.purSort .purSortList .purSortSelect dt i {display:inline-block; width:10px; height:6px; background:url(../../images/purchase/icon01.png) no-repeat; background-size:100%; margin-left:2px;}
+.purSort .purSortList .purSortSelect dt.act {background:#fff; color:#28c83c;}
+.purSort .purSortList .purSortSelect dt.act i {background:url(../../images/purchase/icon01h.png) no-repeat; background-size:100%;}
+.purSort .purSortList .purSortSelect dd {width:100%; position:absolute; left:0; background:#fff; border-top:1px solid #ccc; display:none;}
+.purSort .purSortList .purSortSelect dd ul li {line-height:32px; padding:0 10px; border-bottom:1px solid #c8c8c8; text-align:left; font-size:1.2rem; color:#666;}
+.purSort .purSortList .purSortSelect dd ul li.act {color:#28c83c;}
+.purSort .purSortList .purSortSelect dd ul li.act i {width:20px; height:14px; float:right; background:url(../../images/purchase/icon02.png) no-repeat; background-size:100%; margin-top:9px;}
+
+.purList .purItem {display:block; border-bottom:1px solid #e8e8e8; padding:5px 10px;}
+.purList .purItem .purItemTil {height:26px; line-height:26px; overflow:hidden;}
+.purList .purItem .purItemTil .purItemTilTxt {max-width:85%; font-size:1.4rem; color:#333; float:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.purList .purItem .purItemTil .purItemTilIco {width:16px; height:16px; float:right; background:url(../../images/purchase/shen.png) no-repeat; background-size:100%; margin-top:5px;}
+.purList .purItem .purItemNum li {height:24px; line-height:24px; float:left; font-size:1.4rem; color:#666; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.purList .purItem .purItemNum li.row1 {width:37%;}
+.purList .purItem .purItemNum li.row2 {width:32%; color:#ff4560; margin-left:2%;}
+.purList .purItem .purItemNum li.row3 {width:29%;}
+.purList .purItem .purItemDesc li {height:24px; line-height:24px; color:#999; float:left; font-size:1.2rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.purList .purItem .purItemDesc li.purItemCom {width:37%;}
+.purList .purItem .purItemDesc li.purItemDay {width:32%; margin-left:2%;}
+.purList .purItem .purItemDesc li.purItemQuote {width:29%;}
+
+
+/*筛选求购单*/
+#screenbg {background:#efeff4;}
+.topTil h2 {margin-right:60px;}
+.screenBox {display:block; height:38px; line-height:38px; padding:0 10px; margin-top:10px; background:#fff; border-top:1px solid #ccc; border-bottom:1px solid #ccc; font-size:1.4rem;}
+.screenBox .screenIco {display:inline-block; width:8px; height:13px; background:url(../../images/purchase/icon04.png) no-repeat; background-size:100%; vertical-align:middle; margin-top:-3px; margin-left:8px;}
+.screenBox .screenIptBox {color:#ccc; float:right;}
+.screenBox .screenIptBox .screenIpt {width:65px; height:14px; line-height:14px; padding:4px 5px; border:1px solid #ccc; border-radius:3px; color:#666; text-align:center;}
+.screenReset {margin-top:30px; text-align:center;}
+.screenReset a {display:inline-block; height:28px; line-height:28px; padding:0 12px; border:1px solid #999; border-radius:4px; font-size:1.4rem;}
+
+
+/*选择地区*/
+.purAreaBox {margin-top:10px;}
+.purAreaTil {height:16px; line-height:16px; padding:0 10px; font-size:1.2rem; color:#333;}
+.purArea {-moz-column-count:3; -webkit-column-count:3; column-count:3; margin:9px 10px 0 10px; text-align:center;}
+.purArea li {display:inline-block; width:98%; height:38px; line-height:38px; text-align:center; font-size:1.4rem; background:#fff; border:1px solid #ccc; border-radius:2px; margin-bottom:9px;}
+.purArea li.act {border-color:#28c83c; color:#28c83c;}
+
+
+/*求购单详情页*/
+.detailBan {border-bottom:1px solid #ccc;}
+.detailBan img {width:100%;}
+.detailTil {padding:5px 10px; line-height:24px; border-bottom:1px solid #ccc; font-size:1.6rem; color:#333;}
+.detailTab tbody tr {border-top:1px solid #e8e8e8;}
+.detailTab tbody tr:first-child {border-top:none;}
+.detailTab tbody tr td {font-size:1.2rem; color:#333; height:30px;}
+.detailTab .lft {width:59px; height:20px; line-height:20px; padding-left:10px; border-right:1px solid #e8e8e8; color:#999;}
+.detailTab .rgt {min-height:20px; line-height:20px; padding:5px 10px 5px 15px;}
+.detailTab .grey {font-size:1rem; color:#999;}
+.detailTab .checkInq {height:30px; line-height:30px; padding:0 10px; float:right; background:#ff9e3e; font-size:1rem; color:#fff;}
+
+.contactBg {padding:15px 10px; background:#efeff4;}
+.contactBg .contactTil {height:30px; line-height:30px; font-size:1.2rem; text-align:center;}
+.contactBg .contactInfo {border:1px solid #ccc; border-radius:5px; background:#fff; overflow:hidden;}
+.contactBg .contactInfo .contactTable tr {border-top:1px solid #ccc;}
+.contactBg .contactInfo .contactTable tr:first-child {border-top:none;}
+.contactBg .contactInfo .contactTable tr td {font-size:1.4rem; height:38px; line-height:20px;}
+.contactBg .contactInfo .contactTable .icon {width:15px; height:20px;}
+.contactBg .contactInfo .contactTable .icon1 {background:url(../../images/purchase/icon05.png) no-repeat center; background-size:12px 15px;}
+.contactBg .contactInfo .contactTable .icon2 {background:url(../../images/purchase/icon06.png) no-repeat center; background-size:14px 16px;}
+.contactBg .contactInfo .contactTable .icon1g {background:url(../../images/purchase/icon05g.png) no-repeat center; background-size:12px 15px;}
+.contactBg .contactInfo .contactTable .icon2g {background:url(../../images/purchase/icon06g.png) no-repeat center; background-size:14px 16px;}
+.contactBg .contactInfo .contactTable .txt1 {width:70px; border-right:1px solid #e8e8e8; color:#999;}
+.contactBg .contactInfo .contactTable .txt2 {padding:5px 10px; color:#333;}
+
+.detailsInfo {padding:8px 10px;}
+.detailsInfo .detailsInfoTil {height:30px; line-height:30px; font-size:1.6rem;}
+.detailsInfo .detailsInfoTxt {line-height:22px; font-size:1.4rem;}

@@ -1,0 +1,173 @@
+ .flowPic{
+			margin-top:1.5rem;
+			height:6rem;
+		 }
+		 .liucheng{
+			width:25%;
+			display:inline-block;
+			text-align:center;
+			float:left;
+		 }
+		 .liucheng .active{
+			 color:#28c83c;
+		 }
+		 .active{
+			color:#28c83c;
+		 }
+		 .liucheng label{
+			font-size:1.3rem;
+			display:inline-block;
+			padding-top:.5rem;
+			color:#aaaaaa;
+		 }
+		 .icon-person-active{	
+			background-image:url(../../../themes/images/member/icon-person-active.png);
+		 }
+		 .icon-person{
+			background-image:url(../../../themes/images/member/icon-person.png);
+		 }
+		 .icon-phone-active{
+			background-image:url(../../../themes/images/member/icon-phone-active.png);
+		 }
+		 .icon-check-active{
+			background-image:url(../../../themes/images/member/check-active.png);
+
+		 }
+		  .icon-phone{
+			background-image:url(../../../themes/images/member/icon-phone.png);
+		 }
+		 .icon-check{
+			background-image:url(../../../themes/images/member/check.png);
+
+		 }
+		 .icon-liuc{
+			width:1.8rem;
+			height:3rem;
+			background-size:100% 100%;
+			display:inline-block;
+		 }
+		 .jiantou{
+			display:inline-block;
+			line-height:6rem;
+			width:12.5%;
+			text-align:center;
+			float:left;
+		 }
+		 .icon-go{
+			width:2.5rem;
+			height:1.3rem;
+			background-image:url(../../../themes/images/member/go.png);
+			background-size:100% 100%;
+			display:inline-block;
+		 }
+		 .col-org{
+			color:#f2a326;
+		 }
+		 .info{
+			height:2rem;
+			line-height:2rem;
+			font-size:1.6rem;
+			margin-top:1rem;
+		 }
+		 .info p,.beizhu p{
+			padding-left:3%;
+			color:#999999;
+		 }
+		 .yanzhengma{
+			margin-top:1rem;
+		 }
+		 .yanzhengma input,a{
+			height:3.5rem;
+			line-height:3.5rem;
+		 }
+		 .yanzhengma input::-webkit-input-placeholder ,.edit-mobile input::-webkit-input-placeholder{ color:#d3d3d3; padding-left:1rem;font-size:1.4rem;}
+		 .yanzhengma input,.edit-mobile input{
+			padding-left:3%;
+			font-size:1.5rem;
+		 }
+		 .edit-mobile input{
+			 width:97%;
+			 background:white;
+			 border:0 none;
+			 height:3.5rem;
+			 line-height:3.5rem;
+			 margin-top:1rem;
+		 }
+		 .yanzhengma input{
+			width:57%;
+			display:inline-block;
+			float:left;
+			background:white;
+			border:0 none;
+		 }
+		 
+		 .yanzhengma button{
+			width:28%;
+			color:#28c83c;
+			font-size:1.4rem;
+			display:inline-block;
+			border:1px solid #28c83c;
+			text-align:center;
+			border-radius:3px;
+			margin-left:5%;
+			height:3.5rem;
+			line-height:3.5rem;
+			background:none;
+		 }
+		 .next{
+			width:90%;
+			margin:1.4rem 5%;
+		 }
+		 .next a{
+			background:#28c83c;
+			color:white;
+			font-size:1.8rem;
+			display:block;
+			text-align:center;
+			width:100%;
+			border-radius:5px;
+		 }
+		 .beizhu p{
+			line-height:1.8rem;
+			font-size:1.5rem;
+		 }
+		 .beizhu u{
+			 color:#666666;
+		 }
+		 .col-red{
+			color:#ff4560;
+		 }
+		@media screen and (max-height: 520px) {
+		  .accountFoot{
+			position:static;
+		  }
+		}
+		
+		.col-black{
+			color:red;
+		}
+		.touxiang{
+			margin:1rem auto;
+		}
+		.xiangkuang{
+			position:relative;
+			left:50%;
+			margin-left:-4.5rem;
+			border-radius:50%;
+			width:9rem;
+			height:9rem;
+			background:url(../../../themes/images/member/pincai360_03.png)no-repeat;
+			background-size:100% 100%;
+			background-position:center;
+			
+		}
+		.xiangkuang img{
+			border-radius:50%;
+			width:9rem;
+			height:9rem;
+		}
+		.shuoming{
+			text-align:center;
+			font-size:1.4rem;
+			line-height:1.9rem;
+		}

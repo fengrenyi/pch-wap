@@ -1,0 +1,33 @@
+ /* purchasing.index */
+
+ .select-box{position:relative;  height:100%;top: 0px; left: 50%; margin-left: -52px; text-align: center;   font-size:1.4rem;  background:url(../../images/common/icon02.png) no-repeat 95% center; background-size:12px 7px; border:none;  padding-right: 20px; }
+} 
+
+ .tabs{width:100%;margin:0 auto;}
+ .tabs ul{ text-align: center;  overflow: hidden;  background: #f5f5f5;}
+ .tabs li{width:50%;float:left;white-space:nowrap; height: 100%; color:#999; padding: 10px 0px; border-bottom: solid 1px #e8e8e8; font-size: 1.5rem;}
+ .tabs .on{background:#fff!important;color:#28c83c!important;border-top: solid 2px #28c83c;  padding: 9px 0px;}
+ .tabs .border_right{border-right:solid 1px #e8e8e8; margin-left: -1px;}
+ .main{overflow:hidden;position:relative;background:#fff}
+ .main .tab{overflow: hidden;width: 100%; display: none;}
+ .main .tab a{position: relative; font-size: 1.4rem; display: block; width: 100%;  border-bottom: solid 1px #e8e8e8; padding: 15px 0px 15px 0px;   }
+ .main .tab a p{line-height: 22px; padding: 0px 10px;  text-overflow: ellipsis;white-space: nowrap; overflow: hidden; color: #333;}
+ .main .tab a p img{width: 100%;}
+ .main .tab a .t1{ text-align:justify; text-justify:inter-ideograph; padding-bottom: 8px; padding-top: 4px; font-size: 1.6rem; }
+ .main .tab a p span{font-size: 1.4rem;}
+ .main .tab a p .color{color: #999;}
+
+
+/* details */
+.content_details{background: #fff;}
+.content_details .details{margin: 15px 10px 10px 10px;}
+.content_details .details img{width: 100%;}
+.content_details .details .t1{font-size: 1.6rem; color: #333; padding: 14px 0px; border-bottom: solid 1px #e8e8e8; }
+.content_details .details ul{padding: 10px 0px; border-bottom: solid 1px #e8e8e8; overflow: hidden;}
+.content_details .details ul li{color: #333; font-size: 1.4rem; line-height: 28px;}
+.content_details .details ul li .color{ color: #999; padding-right: 10px;}
+.content_details .details ul li span b{font-weight: normal; color: #ff4560;}
+.content_details .details .content_info{padding: 14px 0px; font-size: 1.4rem; text-align:justify; text-justify:inter-ideograph; color: #666666;}
+.content_details .details .content_info p{text-indent: 30px; line-height: 25px; }
+
+

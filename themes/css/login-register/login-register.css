@@ -1,0 +1,80 @@
+
+body{ background: #efeff4;}
+/* login */
+.form{margin-top: 10px;}
+.form .item {background-color: #fff;position: relative;padding-left: 10px; margin-bottom: 4px;}
+.form .item input {height: 45px;font-size: 1.4rem;color: #8E8C8C;width: 80%;outline: none; border: none; padding-left: 8px; padding-right: 5px; }
+.form input::-webkit-input-placeholder {color: #ccc;}
+.form .item label{font-size: 1.6rem;}
+.form .account,.form .passwd {background: #fff;}
+.form .item i{position: absolute; right: 0px; top: 0px; width: 25px; height: 100%; background:#fff url(../../images/login-register/icon-x.png) 2px 15px no-repeat; background-size: 60%; display: none;}
+.form  .freeLogin{margin: 10px 0px 0px 20px; line-height: 20px; height: 20px;}
+.form  .freeLogin label{font-size: 1.2rem; line-height: 20px; float: left; margin-left: 5px;}
+.form  .freeLogin span{float: left;border: solid 1px #959595; width: 16px; height: 16px; display: inline-block;}
+.form  .freeLogin .icon-choose{ background: url(../../images/login-register/icon-gou.png) center no-repeat; background-size: 100%;}
+.form .btn {margin:3px 10px;}
+.form .btn {background: #aaaaaa;height: 45px; text-align: center; line-height: 45px; font-size: 2rem;margin-top:15px;border-radius: 5px;}
+.form .btnAct{background: #28c83c;}
+.form .btn span {color: #fff;}
+.form .btn input{background: none; border: none; color: #fff; font-size: 2rem;}
+.other-login {width: 100%; text-align: center;font-size: 1.2rem; clear: both;}
+.other-login img {height: 50px;}
+.other-login .arrow {text-align: center;margin: 10px 0;}
+.other-login .arrow img {width: 40px;height: 20px;}
+ #qqpic {margin-right: 10px; margin-left: 10px;}
+.thirdinfo {color: #666;margin-top: 20px;font-size: 1.6rem; position: relative;  }
+.thirdinfo .line{width: 90%; height: 1px; background: #cccccc; display: block; margin: 50px auto  0px auto; }
+.thirdinfo span{position: absolute; left: 50%; top:-20px; background: #efeff4;  margin-left: -32px;}
+.thirdcompy .left {margin-right: 20px;}
+.thirdcompy .left , .thirdcompy .right {width: 40%; display: inline-block;background: #fff;border: 1px solid #e0e0e0;border-radius: 4px;vertical-align: top;text-align: left; font-size: 18px;}
+.thirdcompy .left img , .thirdcompy .right img {width: 30px;height: 30px;float: left;margin: 5px 10px;}
+.thirdcompy span {line-height: 40px;color: #666;}
+.loginmore {margin-top: 10px;}
+.loginmore span {color: #666666;font-size: 1.4rem;}
+.loginmore .forget {margin-left: 20px; float: left; color: #28c83c;}
+.loginmore .register {margin-right: 20px;float: right;}
+
+.share {margin-top: 25px;margin-bottom: 25px;}
+.share .shareab {display: inline-block;margin: 0 20px;}
+.share .shareab .sharelogo {width: 50px;height: 50px;border-radius: 5px;}
+.share .shareab .sharelogo img {width: 100%;height: 100%; }
+.share .shareab .title{padding-top: 5px;}
+
+/* register */
+.registerform{margin-top: 0px;}
+.registerform p{padding: 20px 0px 6px 8px; font-size: 1.2rem;}
+.registerform p label{font-size: 1.4rem; color: #333;}
+.registerform p span{color: #959595;} 
+.registerform .item input {height: 45px;font-size: 1.4rem;color: #8E8C8C;width: 90%;outline: none; border: none; padding-left: 8px; padding-right: 5px; }
+.form .item .password-show{display: none; width: 75%;}
+.form .item .password{width: 75%;}
+.registerform .item {background-color: #fff;position: relative;margin-bottom: 4px; padding-left: 0px;}
+.registerform .pointer .accord {color: #5e97da; font-size: 1.2rem;}
+.registerform .freeLogin{padding-bottom: 40px;}
+.registerform .item .show-password{float: right; height: 37px; margin:4px 10px 0px 0px; line-height: 37px; border-left: solid 1px #cccccc; padding: 0px 10px; font-size: 1.4rem;}
+.form .item .register-icon-x{position: absolute; right: 60px; top: 0px; width: 25px; height: 100%; background:#fff url(../../images/login-register/icon-x.png) 0px 15px no-repeat; background-size: 60%; display: none;}
+.registerform .r-div{margin-top: 15px; padding-left: 8px;}
+.registerform .r-div div{line-height: 25px; font-size: 1.4rem;}
+.registerform .r-div div span{color: #333;}
+.pad80{padding: 80px 0px;}
+.account .code{border: solid 1px #28c83c; color: #28c83c; padding: 8px 10px; border-radius: 5px; font-size: 1.4rem; float: right; margin-top: 5px; margin-right: 10px;}
+.registerform .account .phone-code{width: 50%;}
+
+
+/*关联账号*/
+.astTil {height:30px; line-height:30px; padding:0 10px; margin-top:15px; font-size:1.4rem; color:#333;}
+.astTil .astTilIco {display:inline-block; width:18px; height:16px; background:url(../../images/login-register/gl.png) no-repeat; background-size:100%; vertical-align:middle; margin-top:-3px; margin-right:6px;}
+.astIptBox {background:#fff; padding:0 10px; margin-top:2px;}
+.astIptBox .astIpt {width:100%; height:40px; border:none; background:none; font-size:1.4rem; color:#333;}
+.astIptBox .astTxtIpt {display:none;}
+.astIptBox .switchBox {float:right; position:relative; z-index:2;}
+.astIptBox .switchBox .emptyPsw {width:18px; height:18px; background:url(../../images/login-register/icon-x.png) no-repeat; background-size:100%; position:absolute; left:-28px; top:11px; display:none;}
+.astIptBox .switchBox .switch {height:30px; line-height:30px; padding:0 10px; float:left; border-left:1px solid #ccc; font-size:1.4rem; color:#959595; text-align:center; margin-top:5px;}
+.astIptBox .astPswBox {margin-right:52px;}
+.astTxt {height:30px; line-height:30px; margin-top:15px; padding:0 15px; font-size:1.2rem; color:#959595;}
+.astBtnBox {margin:0 10px;}
+.astBtnBox .astBtn {width:100%; height:40px; border:none; border-radius:5px; font-size:1.6rem; color:#fff;}
+.astBtnBox .astBtn1 {background:#aaa;}
+.astBtnBox .astBtn2 {background:#28c83c; display:none;}
+.astLink {height:32px; line-height:32px; padding:0 15px;}
+.astLink a {font-size:1.2rem; color:#28c83c;}
